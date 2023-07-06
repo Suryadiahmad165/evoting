@@ -1,0 +1,64 @@
+/* candidates.css */
+
+.dashboard-section {
+    margin-top: 20px;
+  }
+  
+  .dashboard-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  thead {
+    background-color: #e0e0e0;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+.aksi{
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+.edit{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 10px;
+  transition: all 1s ease;
+}
+.edit:hover {
+  background-color: #013a77;
+}
+.delete{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f0270c; /* Blue color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 10px;
+  transition: all 1s ease;
+}
+.delete:hover{
+  background-color: #911202;
+}

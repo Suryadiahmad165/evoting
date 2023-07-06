@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.wrapper {
+    border-radius: 20px;
+    width: 80vw;
+    height: 90vh;
+    background: #A9E4EC;
+    display: flex;
+}
+
+.login-box{
+    position: relative;
+    color: #000;
+    padding: 80px 30px 25px 30px;
+    width: 40%;
+    height: 100%;
+    background: #dbdfe7;
+    text-align: center;
+}
+.vector{
+    background: url('../image/vector.png');
+    width: 60%;
+    height: 100%;
+    background-size: 100%; /* set your desired size */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header-img{
+    position: relative;
+    top: -60px;
+    left: 0;
+}
+.header-img img{
+    width: 110px;
+}
+.header-text{
+    position: relative;
+    top: -50px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    display: inline-flex;
+    justify-content: center;
+}
+.header-text svg{
+    margin-right: 10px;
+}
+.bi-person {
+  width: 24px; /* set your desired width */
+  height: 24px; /* set your desired height */
+}
+.input-group{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.input-field{
+    height: 40px;
+    background: transparent;
+    color: #000;
+    border: 0;
+    border-bottom: 1px solid #000;
+    margin: 15px 0;
+    padding: 0 15px;
+    outline: none;
+}
+.input-field:focus,.input-field:valid{
+    border-bottom: 2px solid #4162E3;
+}
+
+.input-group{
+    position: relative;
+    top: -50px;
+}
+
+.input-group label{
+    position: absolute;
+    top: 23px;
+    left: 3px;
+    transition: .3s;
+}
+.input-field:focus ~ label,.input-field:valid ~ label{
+    top: 5px;
+    font-size: 12px;
+    color: #2e3032;
+}
+.forgot-pass{
+    position: relative;
+    top: -35px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.forgot-pass label {
+    color: #000;
+    font-size: 12px
+}
+.forgot-pass a{
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+}
+.input-submit{
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background: #4162E3;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: .4s ease-out;
+}
+.input-submit:hover{
+    box-shadow: 0 1px 10px rgba(65,98,227,0.5);
+}
+
+/* CSS */
+
+.dropdown-arrow {
+    transition: transform 0.3s ease;
+  }
+  
+  .rotate-180 {
+    transform: rotate(180deg);
+  }
+  
+  #sidebar ul li {
+    position: relative;
+  }
+  
+  
+
+  #sidebar ul li ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    z-index: 10;
+  }
+  
+  #sidebar ul li ul.hidden {
+    display: none;
+  }
+  
+  #sidebar ul li:nth-child(2) ul {
+    top: 100%;
+  }
+
+  .candidates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.candidate {
+    width: 48%;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.candidate p{
+    text-align: justify;
+}
+
+.candidate img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.candidate h2 {
+    margin-top: 10px;
+}
+
+.mynavbar {
+    background-color: #314499;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+  
+
+.mynavbar h1 {
+    margin: 0;
+    color: #fff; /* Initial color */
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0); /* Initial box shadow */
+    transition: all 0.5s ease;
+  }
+  
+  .mynavbar h1:hover {
+    color: #a6b5f7;
+    box-shadow: 0 4px 4px rgba(250, 246, 30, 0.897);
+  }
+  
+  .visimisi-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #74aeec; /* Blue color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 10px;
+  }
+  .vote-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .vote-button:hover {
+    background-color: #0069d9; /* Darker shade of blue on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow effect */
+    transform: scale(1.1); /* Scale the button up by 10% */
+  }
+  
